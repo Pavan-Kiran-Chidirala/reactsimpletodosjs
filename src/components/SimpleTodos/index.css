@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.main-holder {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  height: 100vh;
+}
+.inner-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  height: 90%;
+  border-radius: 25px;
+  padding: 20px;
+}
+.main-heading {
+  color: #ff8542;
+  font-size: 30px;
+}
+.items-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
